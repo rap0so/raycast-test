@@ -1,6 +1,6 @@
 # Raycast example with Three.js and Orbit control
+![Screenshot](https://github.com/user-attachments/assets/275f199d-7f01-43f4-8a42-f7eb126721fc)
 
-![Screenshot](https://github.com/user-attachments/assets/b93e0e7a-1622-49b9-bbd2-80b654550aa8)
 
 ## A lightweight 3D project template using **Three.js**, **Orbit Control** and **Raycast** just for fun 🚀
 
