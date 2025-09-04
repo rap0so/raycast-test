@@ -14,8 +14,6 @@ const camera = new PerspectiveCamera(
   100
 );
 
-camera.position.set(5, 2, 5);
-
 scene.add(camera);
 
 export default camera;

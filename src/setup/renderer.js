@@ -5,7 +5,7 @@ import canvas from "./canvas";
 import pixelRatio from "./getPixelRatio";
 import scene from "./scene";
 
-const { orbitControl } = getOrbitControl(camera, canvas);
+getOrbitControl(camera, canvas);
 
 const renderer = new WebGLRenderer({
   canvas,
@@ -21,8 +21,6 @@ const updateRenderer = (callback) => {
   window.requestAnimationFrame(() => updateRenderer(callback));
 
   callback?.();
-
-  orbitControl.update();
 
   renderer.render(scene, camera);
 };
